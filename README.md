@@ -11,7 +11,7 @@ Email plugin for KiraAI — empower your digital life with email capabilities.
 
 ## Installation
 
-1. Copy the `kira-ai-plugin-email` folder into your KiraAI `data/plugins/` directory.
+1. Copy this entire folder into your KiraAI `data/plugins/` directory.
 2. Restart KiraAI or reload plugins from the WebUI.
 3. Configure your email settings in the WebUI plugin settings panel.
 

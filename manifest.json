@@ -1,0 +1,18 @@
+{
+  "display_name": "邮件插件",
+  "plugin_id": "kira-ai-plugin-email",
+  "version": "1.0.0",
+  "author": "xxy & 织羽",
+  "description": "为 KiraAI 数字生命接入邮件系统，支持发送邮件和查看收件箱",
+  "repo": "https://github.com/oriha-ai/kira-ai-plugin-email",
+  "locales": {
+    "zh": {
+      "display_name": "邮件插件",
+      "description": "为 KiraAI 数字生命接入邮件系统，支持发送邮件和查看收件箱"
+    },
+    "en": {
+      "display_name": "Email Plugin",
+      "description": "Integrate email system into KiraAI digital life, supporting sending emails and checking inbox"
+    }
+  }
+}
