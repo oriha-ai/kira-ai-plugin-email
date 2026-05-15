@@ -1,0 +1,65 @@
+{
+  "smtp_host": {
+    "type": "string",
+    "name": "SMTP 服务器",
+    "default": "smtp.qq.com",
+    "hint": "发送邮件的 SMTP 服务器地址",
+    "locales": {
+      "zh": { "name": "SMTP 服务器", "hint": "发送邮件的 SMTP 服务器地址" }
+    }
+  },
+  "smtp_port": {
+    "type": "integer",
+    "name": "SMTP 端口",
+    "default": 465,
+    "hint": "SMTP 服务器端口（SSL 465，STARTTLS 587）"
+  },
+  "smtp_use_ssl": {
+    "type": "switch",
+    "name": "使用 SSL",
+    "default": true,
+    "hint": "是否使用 SSL 连接 SMTP 服务器"
+  },
+  "imap_host": {
+    "type": "string",
+    "name": "IMAP 服务器",
+    "default": "imap.qq.com",
+    "hint": "接收邮件的 IMAP 服务器地址"
+  },
+  "imap_port": {
+    "type": "integer",
+    "name": "IMAP 端口",
+    "default": 993,
+    "hint": "IMAP 服务器端口（SSL 993）"
+  },
+  "email_address": {
+    "type": "string",
+    "name": "邮箱地址",
+    "default": "",
+    "hint": "用于发送和接收邮件的邮箱地址"
+  },
+  "email_password": {
+    "type": "sensitive",
+    "name": "邮箱授权码",
+    "default": "",
+    "hint": "邮箱的 SMTP/IMAP 授权码（非登录密码）"
+  },
+  "default_signature": {
+    "type": "textarea",
+    "name": "默认签名",
+    "default": "\n\n-- \n来自织羽 (Oriha)，由 KiraAI 驱动",
+    "hint": "发送邮件时自动附加的默认签名"
+  },
+  "max_inbox_count": {
+    "type": "integer",
+    "name": "收件箱最大查看数",
+    "default": 10,
+    "hint": "查看收件箱时最多显示的邮件数量"
+  },
+  "allowed_recipients": {
+    "type": "list",
+    "name": "允许的收件人",
+    "default": [],
+    "hint": "允许发送邮件的收件人地址列表，每行一个，留空不限制"
+  }
+}
